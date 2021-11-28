@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import GoogleLogin from 'react-google-login';
-import ApiResponse from './components/ApiResponse';
 
 class App extends Component {
 
@@ -19,8 +18,6 @@ class App extends Component {
                     onFailure={this.responseGoogle}
                     cookiePolicy={'single_host_origin'}
                 />
-                <ApiResponse/>
-
             </div>
         );
     }
