@@ -12,7 +12,7 @@ class App extends Component {
         return (
             <div>
                 <GoogleLogin
-                    clientId="684096482788-qgrmul6vpjaqss26vhrom6dhqepmlutm.apps.googleusercontent.com"
+                    clientId="684096482788-pgq1culpt0jc6gcbt2e9m98n8ahe43v1.apps.googleusercontent.com" // ToDo create credentials at Google Cloud Platform
                     buttonText="Login"
                     onSuccess={this.responseGoogle}
                     onFailure={this.responseGoogle}
